@@ -6,7 +6,7 @@ import '../styles/Detail.css'
 function Detail() {
   const location = useLocation(); //로케이션객체를 가져온다
   console.log(location);
-  const {genres,id,poster,summary,title,year} = location.state;
+  const {genres,poster,summary,title,year} = location.state;
   // 데이터를 구조분해 할당으로 받아와서 밑에처럼 다시 뿌려준다 loacation객체에 기본적으로 state라는 속성이 있어서 state를 써준다.
 
   return (
